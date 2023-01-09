@@ -42,3 +42,14 @@ form {
   background-color: darkgray;
   text-decoration: line-through;
 }
+
+.form__todo{
+  background-color: transparent;
+}
+
+.todos{
+  margin: 150px auto 0 auto;
+  width: 80%;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
