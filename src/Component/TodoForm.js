@@ -36,10 +36,11 @@ const TodoForm = () => {
     }
 
     return (
-        <Form autocomplete="off" onSubmit={handleSubmit} className='form__todo'>
-            <FormGroup>
-                <InputGroup>
+        <Form autocomplete="off" onSubmit={handleSubmit} className='form__todo mb-0 !important'>
+            <FormGroup className="mb-0 !important">
+                <InputGroup className="mb-0 !important">
                     <Input
+                        className="mb-0 !important"
                         type="text"
                         name="todo"
                         id="todo"
